@@ -1,0 +1,29 @@
+Hey Team,
+
+For the database the tables are as follows with current restrictions in place
+
+Appointments
+	AppointmentNumber (int any length)
+	AppointmentDT (datetime)
+	EmployeeID (string fixed length of 6)
+	CustomerID (string fixed length of 9)
+
+Customers
+	CustomerID (string fixed length of 9)
+	FirstName (string variable length max 30)
+	LastName (string variable length max 30)
+	CustomerPN (string fixed length of 10)
+	CustomerEmail (string variable length max 60)
+	customerPW (string variable length max 18)
+
+Employees
+	EmployeeID (string fixed length of 6)
+	FirstName (string variable length max 30)
+	LastName (string variable length max 30)
+	EmployeePN (string fixed length of 10)
+	EmployeePW (string variable length max 18)
+
+
+For customer logins, I am thinking of using customer email for username and for employees they would use their ID.
+
+
