@@ -104,3 +104,52 @@ body{
 .about-text {
     font-size: 20px;
 }
+
+.home-page-box-blue{
+    padding: 40px;
+    background-color: rgba(72, 209, 204, 0.2);
+    margin: 10px;
+}
+
+.home-page-box-pink{
+    padding: 40px;
+    background-color: rgba(255, 182, 193, 0.2);
+    margin: 10px;
+}
+
+.pinkify-w-hover{
+    color:hotpink;
+}
+
+.blueify{
+    background-color: rgba(72, 209, 204);
+}
+
+.blueify-w-hover{
+    color: rgba(72, 209, 204);
+}
+
+.home-page-box-pink:hover{
+    background-color: rgba(72, 209, 204, 0.2);
+}
+
+.home-page-box-blue:hover{
+    background-color: rgba(255, 182, 193, 0.2);
+}
+
+.home-page-box-blue:hover .pinkify-w-hover{
+    color: rgba(72, 209, 204);
+}
+
+.home-page-box-pink:hover .blueify-w-hover{
+    color:hotpink;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.background-peonies{
+    background-image: url("/Photos/Watercolor-Peonies.jpg");
+    background-repeat: repeat;
+}
